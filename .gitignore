@@ -1,0 +1,40 @@
+# System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Server scripts (Optional - keep if you want to share them)
+# start_server.bat
+# start_main_page_server.bat
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# EXCLUDE ALL PYTHON SOURCE CODE FOR NOW
+*.py
+src/*.py
+**/ *.py
+
+# Environments
+.env
+.env.local
+.env.*.local
+venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data (Optional: if the data is too large for GitHub)
+# data/*.json
